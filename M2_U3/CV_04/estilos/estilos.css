@@ -1,0 +1,139 @@
+
+body {
+	color: rgb(226, 39, 39);
+	background: #e6c698;
+	font-size:100%;
+}
+
+
+#contenedor1 {
+    width: 50%;
+    margin:  0 auto;
+}
+
+p{
+    color:blue;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300 px;
+    height: 40 px;
+}
+
+h2{
+
+    color:rgb(0, 26, 255);
+    font-size: 1.5rem;
+   
+}
+
+li{
+
+    color:rgb(114, 8, 114);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}  
+
+h1{
+    color:rgb(197, 43, 228);
+    font-family: 'Pushster', cursive;
+}
+
+.datos{
+
+    background-color: #e5ff00; 
+    color: blue;
+    margin-right: 72%;
+    font-family: 'Pushster', cursive;
+    border-radius: 5px 10px 5px 10px;
+
+}
+
+#series{
+    width: 900px;
+    height: 100px;
+    background-color: orange;
+}
+
+
+#pelis{
+    width: 900px;
+    height: 100px;
+    background-color: rgb(0, 204, 255);
+}
+
+
+#perfil{
+    width: 900px;
+    height: 200px;
+    background-color: rgb(134, 89, 175);
+}
+
+@media screen and (min-width: 230px) and (max-width: 800px)
+{
+    
+body {
+	color: rgb(74, 230, 134);
+	background: #e09421;
+	font-size:100%;
+}
+
+
+h1{
+    color:rgb(33, 7, 95);
+    font-family: 'Pushster', cursive;
+    text-align: center;
+}
+
+    #series{
+        width: 600px;
+        background-color: rgb(231, 211, 172);
+    }
+    
+       
+    #pelis{
+        width: 600px;
+        background-color: rgb(146, 205, 219);}
+    
+        
+    #perfil{
+        width: 600px;
+        background-color: rgb(208, 174, 240);
+    }
+
+    
+#contenedor1 {
+    width: 100%;
+    margin:  0 auto;
+
+}
+
+img:hover {filter: grayscale(80%);}
+}
+
+/*
+@media screen and (min-width = 400px) and (max-width = 767px)
+{
+
+    #series{
+        width: 400px;
+        background-color: rgb(231, 211, 172);
+           }
+    #pelis{
+        width: 400px;
+        background-color: rgb(146, 205, 219);
+           }
+    
+    
+    #perfil{
+        width: 400px;
+        background-color: rgb(208, 174, 240);
+           }
+      
+
+}
+*/
+
+
+/*.imagen:hover {-webkit-transform: rotate(360deg);transform: rotate(360deg);}
+	
+.imagen:hover {filter: grayscale(80%);}
+
+/* font-family: 'Pushster', cursive; */
